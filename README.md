@@ -2,8 +2,10 @@
 
 ## Useful commads summary 
 
- docker run -p 80:80 docker-on-aws
+docker run -p 80:80 docker-on-aws
+
 docker build -t alexmady/docker-on-aws .
+
 docker push alexmady/docker-on-aws:latest
 
 TODO - add steps for deployment to fargate. 
